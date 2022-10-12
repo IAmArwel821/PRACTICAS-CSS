@@ -1,0 +1,65 @@
+div{
+    margin: 20px;
+    padding: 10px
+  }
+  .header{
+    background: crimson;
+    width: 693px ;
+    border: 3px solid black;
+    padding: 10px;
+  }
+  .box1{
+    background: limegreen;
+    height: 80px;
+    width: 140px;
+    display: flex;
+    border: 3px solid black ;
+    padding: 10px;
+    
+  }
+  .box2{
+    background: royalblue;
+    height:80px;
+    width:140px;
+    position: absolute;
+    left:240px;
+    top: 143px;
+    border: 3px solid black;
+    padding: 10px;
+  }
+  .box3{
+    background: mediumpurple;
+    height: 80px;
+    width: 140px;
+    position: absolute;
+    left: 439px;
+    top: 143px;
+    border: 3px solid black;
+    padding: 10px;
+  }
+  .sidebar{
+    background: black;
+    height: 307px;
+    width: 110px;
+    position: absolute;
+    left:620px;
+    top: 143px;
+    border: 3px solid black;
+    padding: 10px;
+  }
+  .main{
+    background: orange;
+    height: 180px;
+    width: 540px;
+    display: flex;
+    border: 3px solid black;
+    padding: 10px;
+  }
+  .footer{
+    background: aqua;
+    width: 693px ;
+    display: flex;
+    border: 3px solid black;
+    padding: 10px;
+  }
+  
