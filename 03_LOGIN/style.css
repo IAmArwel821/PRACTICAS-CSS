@@ -1,40 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{  
-
+body {
     font-family: 'Roboto', sans-serif;
-    background: rgb(8, 29, 142);
-    background: linear-gradient(90deg, rgba(8,29,142,1) 0%, rgba(48,196,126,1) 0%, rgba(22,216,244,1) 100%);
-    
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
-header{
+header {
     width: 100%;
-    margin:20px auto;
+    margin: 20px auto;
     text-align: center;
     color: #fff;
     font-size: 25px;
 }
 
-img{
-
+img {
     display: block;
     width: 150px;
     height: 150px;
     margin: auto;
     background: #fff;
     border: 8px solid #fff;
-    border-radius:100%;
+    border-radius: 100%;
     position: relative;
-    top:0px;
+    top: -10px;
     z-index: 1;
 }
 
-section{
+section {
     width: 400px;
     height: 550px;
     background: #fff;
@@ -42,12 +39,12 @@ section{
     border-radius: 30px;
     padding: 30px;
     position: relative;
-    top:-60px;
+    top: -60px;
     text-align: center;
     box-shadow: 5px 5px 20px lightseagreen;
 }
 
-input{
+input {
     display: block;
     width: 100%;
     height: 60px;
@@ -56,17 +53,17 @@ input{
     border: 2px solid lightgray;
 }
 
-input:focus{
-    box-shadow: 0 0 20px yellow;
+input:focus {
+    box-shadow: 0 0 20px RED;
 }
 
-input::placeholder{
+input::placeholder {
     padding-left: 15px;
     font-size: 20px;
     opacity: 0.5;
 }
 
-button{
+button {
     width: 100px;
     height: 45px;
     margin: 30px;
@@ -76,32 +73,30 @@ button{
     font-weight: bold;
     padding: 5px;
     color: #fff;
-    
 }
 
-button:hover{
+button:hover {
     transform: scale(1.05);
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px orange;
 }
 
-.claro{
+.claro {
     color: lightseagreen;
     opacity: 0.5;
 }
 
-
-.mover{
+.mover {
     margin-top: 30px;
 }
 
-.btn-login{
+.btn-login {
     background: #d20000;
 }
 
-.btn-face{
+.btn-face {
     background: #0b43bd;
 }
 
-.btn-git{
+.btn-git {
     background: #000;
 }
